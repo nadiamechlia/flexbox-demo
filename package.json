@@ -1,8 +1,16 @@
 {
   "name": "flexbox-demo",
   "version": "0.1.0",
-  "private": true,
+  "description": "Basic examples of the CSS flexbox layout utilities.",
+  "author": "Nadia Mechlia <nadia.mechlia@gmail.com>",
+  "keywords": [
+    "react",
+    "flexbox",
+    "sass",
+    "BEM"
+  ],
   "dependencies": {
+    "node-sass": "^4.11.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"

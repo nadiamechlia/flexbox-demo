@@ -1,0 +1,119 @@
+@import "./colors";
+
+.flx {
+    padding: 20px;
+
+    &__title {
+        font-weight: bold;
+    }
+
+    &__example-one {
+        padding: 10px;
+
+        &__parent {
+            margin-top: 10px;
+            background: $flx-gray;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &__child {
+                width: 50px;
+                height: 50px;
+                background: $flx-pink;
+            }
+        }
+    }
+
+    &__example-two {
+        padding: 10px;
+
+        &__parent {
+            margin-top: 10px;
+            background: $flx-gray;
+            height: 200px;
+            display: flex;
+
+            &__child-one {
+                height: 50px;
+                background: $flx-pink;
+                flex-basis: 50%;
+            }
+
+            &__child-two {
+                height: 150px;
+                background: $flx-green;
+                flex-basis: 25%;
+            }
+
+            &__child-three {
+                height: 50px;
+                background: $flx-blue;
+                flex-basis: 25%;
+            }
+        }
+    }
+
+    &__example-three {
+        padding: 10px;
+
+        &__parent {
+            margin-top: 10px;
+            background: $flx-gray;
+            height: 200px;
+            display: flex;
+            flex-wrap: wrap;
+
+            &__child-one {
+                height: 50px;
+                background: $flx-pink;
+                flex-basis: 50%;
+                min-width: 250px;
+            }
+
+            &__child-two {
+                height: 150px;
+                background: $flx-green;
+                flex-basis: 25%;
+            }
+
+            &__child-three {
+                height: 50px;
+                background: $flx-blue;
+                flex-basis: 25%;
+            }
+        }
+    }
+
+    &__example-four {
+        padding: 10px;
+
+        &__parent {
+            margin-top: 10px;
+            background: $flx-gray;
+            display: flex;
+            flex-direction: column;
+
+            // flex-direction: column-reverse;
+
+            &__child-one {
+                height: 50px;
+                background: $flx-pink;
+                flex-basis: 50%;
+            }
+
+            &__child-two {
+                height: 150px;
+                background: $flx-green;
+                flex-basis: 25%;
+            }
+
+            &__child-three {
+                height: 50px;
+                background: $flx-blue;
+                flex-basis: 25%;
+            }
+        }
+    }
+}
