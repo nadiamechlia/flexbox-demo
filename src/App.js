@@ -35,7 +35,7 @@ class App extends Component {
 
 				{/* EXAMPLE # 4: It's easy to set a direction to children */}
 				<div className="flx__example-four">
-					<span className="flx__title">EXAMPLE # 4: It's easy to set a direction to children</span>
+					<span className="flx__title">EXAMPLE # 4: It is easy to set a direction to children</span>
 					<div className="flx__example-four__parent">
 						<div className="flx__example-four__parent__child-one" />
 						<div className="flx__example-four__parent__child-two" />
