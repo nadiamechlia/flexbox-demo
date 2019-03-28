@@ -11,7 +11,7 @@ This project contains some basic examples of the CSS flexbox layout utilities.
 - We use node-sass (Sass).
 
 - We used the BEM [http://getbem.com/](BEM) style methodology.  
-s
+
 ## Steps to run this project 
 
 1- Clone the project locally
