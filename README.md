@@ -32,5 +32,7 @@ This project contains some basic examples of the CSS flexbox layout utilities.
 
 5- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+***Medium link: [Why Flexbox?](https://medium.com/@nadia.mechlia/why-flexbox-22932203bca3)
+
 
 
